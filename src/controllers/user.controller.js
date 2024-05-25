@@ -101,7 +101,6 @@ const verifyOtp = asyncHandler(async (req, res) => {
     user.otp = undefined;
     user.otpExpiration = undefined;
     await user.save();
-
     return res.status(200).json(new ApiResponse(200, {}, "Email verified successfully"));
 });
 

@@ -1,3 +1,1 @@
-# backend starter
-
-user authentication method updated
+# backend for vitweets
